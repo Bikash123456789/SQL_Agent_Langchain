@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-openai
+openai
+python-dotenv
+sqlalchemy
+snowflake-connector-python
+httpx
+fastapi
+uvicorn
+streamlit
+loguru
