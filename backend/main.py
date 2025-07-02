@@ -2,7 +2,7 @@
 import time
 from fastapi import FastAPI
 from pydantic import BaseModel
-from langchain_agent import run_query
+from .langchain_agent import run_query
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()

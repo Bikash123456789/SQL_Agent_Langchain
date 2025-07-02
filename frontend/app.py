@@ -19,7 +19,7 @@ if submit and query:
     with st.spinner("Thinking..."):
         try:
             response = requests.post(
-                "http://localhost:8000/query",
+                "http://backend:8000/query",
                 json={"question": query},
                 timeout=30,  # increased timeout
             )
